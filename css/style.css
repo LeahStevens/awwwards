@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+
+footer {
+  border-bottom: 1px solid #b6b8b7;
+  box-shadow: 0px 2px 1px #fff; }
+  footer ul {
+    list-style: none;
+    padding: 0px; }
+    footer ul li {
+      display: inline-block;
+      margin-left: 13px;
+      width: 218px;
+      height: 136px; }
+
+#main {
+  font-family: "Oxygen", sans-serif; }
+
+body {
+  background: #e4e6e5; }
+
+#container {
+  width: 1182px;
+  margin: 0 auto;
+  margin: 0 52px 0 52px; }
+
