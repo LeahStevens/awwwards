@@ -4,3 +4,7 @@
 @import 'footer';
 @import 'header';
 @import 'nav';
+
+body {
+  background: $BG_color;
+}
