@@ -1,3 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
 body {
   background: #e4e6e5; }
+
+#container {
+  width: 1182px;
+  margin: 0 auto; }
