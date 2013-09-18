@@ -1,6 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
+
 #main {
   font-family: "Oxygen", sans-serif; }
 
 body {
   background: #e4e6e5; }
+
+#container {
+  width: 1182px;
+  margin: 0 auto;
+  margin: 0 52px 0 52px; }
+
