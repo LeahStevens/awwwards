@@ -24,16 +24,20 @@
     float: left; }
     #content #table_cont ul {
       font-size: 12px;
-      width: 500px; }
+      width: 575px; }
       #content #table_cont ul li {
         list-style: none;
         display: inline-block;
-        height: 30px; }
+        height: 30px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid grey; }
         #content #table_cont ul li div {
           display: inline-block; }
           #content #table_cont ul li div img {
-            width: 100px;
-            height: auto; }
+            width: auto;
+            height: 30px;
+            margin-right: 35px;
+            padding-bottom: -10px; }
 
 footer {
   border-bottom: 1px solid #b6b8b7;
@@ -59,7 +63,7 @@ body {
   clear: both; }
 
 .name {
-  width: 80px; }
+  width: 120px; }
 
 .website {
   width: 100px; }
@@ -68,7 +72,7 @@ body {
   width: 104px; }
 
 .votes {
-  width: 110px; }
+  width: 150px; }
 
 .final {
   widows: 49px; }

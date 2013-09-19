@@ -41,13 +41,15 @@ overflow:hidden;
     ul
     {
         font-size:12px;
-        width:500px;
+        width:575px;
 
       li
       {
         list-style:none;
         display:inline-block;
         height:30px;
+        padding-bottom:10px;
+        border-bottom: 1px solid grey;
 
 
 
@@ -56,8 +58,11 @@ overflow:hidden;
           display:inline-block;
 
          img {
-            width:100px;
-            height:auto;
+            width:auto;
+            height:30px;
+            margin-right: 35px;
+            padding-bottom:-10px;
+
           }
         }
       }
