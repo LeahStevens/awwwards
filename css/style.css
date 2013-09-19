@@ -76,6 +76,9 @@ footer {
       width: 218px;
       height: 136px;
       background: black; }
+      footer ul li img:hover {
+        opacity: 0.4;
+        transition: all 0.4s ease-in-out; }
   footer .footer {
     margin-top: 0px; }
     footer .footer li {
