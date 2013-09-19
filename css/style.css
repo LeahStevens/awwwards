@@ -95,10 +95,11 @@ header {
   position: relative; }
   header p {
     position: absolute;
-    top: 55px;
+    top: 60px;
     left: 300px;
     margin-bottom: 20px;
-    float: left; }
+    float: left;
+    font-size: 14px; }
   header a {
     color: #409f89;
     text-decoration: none; }
@@ -152,7 +153,8 @@ nav {
   display: block; }
   #navmenu ul:nth-child(1) {
     float: left;
-    margin-top: -1px; }
+    margin-top: -1px;
+    font-size: 14px; }
     #navmenu ul:nth-child(1) li:nth-child(1) {
       width: 109px;
       border-right: 1px solid #b6b8b7;
