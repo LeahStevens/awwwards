@@ -5,7 +5,9 @@ overflow:hidden;
 
   #pic_of_day {
     float:left;
-
+    #banner {
+      position:absolute;
+    }
     img
     {
       display:block;
@@ -15,14 +17,15 @@ overflow:hidden;
   #counter_img
   {
     width: 75px;
+    float:left;
+
 
     img
     {
       display: block;
-      height: 75px;
-      width: auto;
-      float:left;
-    }
+      height: auto;
+      width: 75px;
+          }
   }
 
 }
