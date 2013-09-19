@@ -39,3 +39,17 @@ body {
 .final {
   widows: 49px;
 }
+
+h3 {
+  font-family: $font;
+  font-size: 13px;
+  font-weight: bold;
+  color: $text_color;
+}
+
+h4 {
+  font-family: $font;
+  font-size: 13px;
+  font-weight: normal;
+  color: $link_color;
+}
