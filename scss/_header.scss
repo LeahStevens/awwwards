@@ -1,0 +1,92 @@
+header {
+font-family:$font;
+color: $text_color;
+height: 180px;
+position:relative;
+
+
+
+#login{
+  img{
+    width:150px;
+    height:40px;
+    position: relative;
+    top: 10px;
+  }
+}
+
+    p{
+      position:absolute;
+      top:60px;
+      left: 300px;
+      margin-bottom: 20px;
+      float:left;
+      font-size: 14px;
+
+    }
+
+    a{
+      color: $link_color;
+      text-decoration:none;
+    }
+
+    ul{
+        padding-left:0;
+
+
+      li{
+
+          display: inline;
+
+
+
+
+
+          }
+      }
+    }
+
+
+
+
+
+
+
+
+
+#logo{
+  position:absolute;
+  top: 50px;
+  left:0px;
+  display: block;
+  width:288px;
+  height:56px;
+
+}
+#navheader{
+  float:right;
+
+  .navli{
+    border-right: 1px solid #b6b8b7;
+    padding-left:5px;
+    padding-right:5px;
+
+   li:nth-child(6){
+        padding-left:5px;
+    padding-right:5px;
+
+   }
+   li:nth-child(7){
+        padding-left:5px;
+    padding-right:5px;
+
+
+   }
+  }
+}
+
+#socialmedia{
+img{
+    width:50px;
+    height:20px;
+}}

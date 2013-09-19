@@ -15,7 +15,7 @@
     #content #pic_of_day #banner {
       position: absolute;
       left: 38px;
-      top: 100px; }
+      margin-top: 100px; }
     #content #pic_of_day img {
       display: block; }
   #content #counter_img {
@@ -62,7 +62,9 @@
 footer {
   border-bottom: 1px solid #b6b8b7;
   box-shadow: 0px 1px 1px #fff;
-  margin-top: 50px; }
+  margin-top: 50px;
+  margin-bottom: 75px;
+  background: none; }
   footer ul {
     list-style: none;
     padding: 0px;
@@ -73,17 +75,159 @@ footer {
       display: inline-block;
       margin-left: 15px;
       width: 218px;
-      height: 136px; }
+      height: 136px;
+      background: black; }
+      footer ul li img:hover {
+        opacity: 0.4;
+        transition: all 0.4s ease-in-out; }
   footer .footer {
     margin-top: 0px; }
     footer .footer li {
       height: auto;
-      margin-top: 0px; }
+      margin-top: 0px;
+      background: none; }
       footer .footer li h3 {
         margin-top: 0px; }
       footer .footer li h4 {
         margin-top: 0px;
         margin-bottom: 22px; }
+
+header {
+  font-family: "Oxygen", sans-serif;
+  color: #444444;
+  height: 180px;
+  position: relative; }
+  header #login img {
+    width: 150px;
+    height: 40px;
+    position: relative;
+    top: 10px; }
+  header p {
+    position: absolute;
+    top: 60px;
+    left: 300px;
+    margin-bottom: 20px;
+    float: left;
+    font-size: 14px; }
+  header a {
+    color: #409f89;
+    text-decoration: none; }
+  header ul {
+    padding-left: 0; }
+    header ul li {
+      display: inline; }
+
+#logo {
+  position: absolute;
+  top: 50px;
+  left: 0px;
+  display: block;
+  width: 288px;
+  height: 56px; }
+
+#navheader {
+  float: right; }
+  #navheader .navli {
+    border-right: 1px solid #b6b8b7;
+    padding-left: 5px;
+    padding-right: 5px; }
+    #navheader .navli li:nth-child(6) {
+      padding-left: 5px;
+      padding-right: 5px; }
+    #navheader .navli li:nth-child(7) {
+      padding-left: 5px;
+      padding-right: 5px; }
+
+#socialmedia img {
+  width: 50px;
+  height: 20px; }
+
+nav {
+  font-family: "Oxygen", sans-serif;
+  color: #444444; }
+  nav a {
+    color: #444444;
+    text-decoration: none; }
+  nav ul {
+    list-style-type: none;
+    padding-left: 0px; }
+    nav ul li {
+      display: inline; }
+
+#navmenu {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 40px;
+  line-height: 41px;
+  border-bottom: 1px solid #b6b8b7;
+  border-top: 1px solid #b6b8b7;
+  box-shadow: 0px 1px 1px #fff;
+  display: block; }
+  #navmenu ul:nth-child(1) {
+    float: left;
+    margin-top: -1px;
+    font-size: 14px; }
+    #navmenu ul:nth-child(1) li:nth-child(1) {
+      width: 109px;
+      border-right: 1px solid #b6b8b7;
+      padding: 10px; }
+    #navmenu ul:nth-child(1) li:nth-child(2) {
+      width: 129px;
+      border-right: 1px solid #b6b8b7;
+      padding: 10px; }
+    #navmenu ul:nth-child(1) li:nth-child(3) {
+      width: 145px;
+      border-right: 1px solid #b6b8b7;
+      padding: 10px; }
+    #navmenu ul:nth-child(1) li:nth-child(4) {
+      width: 94px;
+      border-right: 1px solid #b6b8b7;
+      padding: 10px; }
+  #navmenu ul:nth-child(2) {
+    float: right;
+    margin: 0;
+    padding: 0; }
+    #navmenu ul:nth-child(2) li:nth-child(1) {
+      width: 41px;
+      padding: 10px; }
+    #navmenu ul:nth-child(2) li:nth-child(2) {
+      width: 41px;
+      padding: 10px; }
+    #navmenu ul:nth-child(2) li:nth-child(3) {
+      width: 41px;
+      padding: 10px; }
+    #navmenu ul:nth-child(2) li:nth-child(4) {
+      width: 41px;
+      padding: 10px; }
+    #navmenu ul:nth-child(2) li:nth-child(5) {
+      width: 41px;
+      padding: 10px; }
+
+#searchbar {
+  float: right; }
+  #searchbar img {
+    height: 40px;
+    width: 150px; }
+
+#secondnav {
+  margin: 0px;
+  padding: 0px; }
+  #secondnav li:nth-child(1) {
+    padding: 15px; }
+  #secondnav li:nth-child(2) {
+    padding: 15px; }
+  #secondnav li:nth-child(3) {
+    padding: 15px; }
+  #secondnav li:nth-child(4) {
+    padding: 15px; }
+  #secondnav li:nth-child(5) {
+    padding: 15px; }
+  #secondnav li:nth-child(6) {
+    padding: 15px; }
+
+#bluelink {
+  color: #409f89; }
 
 body {
   background: #e4e6e5; }
@@ -124,6 +268,21 @@ h4 {
   color: #409f89; }
 
 
+
 .key {
   margin-left: 300px;
 }
+
+/*
+#brackets-icon:hover{
+  background-posistion: 0 0;
+}
+#brackets-icon{
+  display:inline-block;
+  min-width:40px;
+  min-height:40px;
+  background: url('../images/brackets-icon.png') bottom;
+  background-repeat: no-repeat;
+  text-indent: -99999px;
+}
+*/
