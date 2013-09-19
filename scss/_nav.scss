@@ -81,7 +81,6 @@ display:block;
             li:nth-child(1){
               width: 41px;
 
-              border-left: 1px solid #b6b8b7;
               padding:10px;
 
 
@@ -89,25 +88,24 @@ display:block;
              li:nth-child(2){
               width: 41px;
 
-              border-left: 1px solid #b6b8b7;
+
               padding:10px;
             }
              li:nth-child(3){
               width: 41px;
 
-              border-left: 1px solid #b6b8b7;
+
               padding:10px;
             }
              li:nth-child(4){
               width: 41px;
 
-              border-left: 1px solid #b6b8b7;
+
               padding:10px;
             }
              li:nth-child(5){
               width: 41px;
 
-              border-left: 1px solid #b6b8b7;
               padding:10px;
             }
 
@@ -122,6 +120,11 @@ display:block;
 
 #searchbar{
   float:right;
+
+  img{
+    height:40px;
+    width: 150px;
+  }
 }
 
 

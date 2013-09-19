@@ -93,6 +93,11 @@ header {
   color: #444444;
   height: 180px;
   position: relative; }
+  header #login img {
+    width: 150px;
+    height: 40px;
+    position: relative;
+    top: 10px; }
   header p {
     position: absolute;
     top: 60px;
@@ -128,6 +133,10 @@ header {
     #navheader .navli li:nth-child(7) {
       padding-left: 5px;
       padding-right: 5px; }
+
+#socialmedia {
+  width: 50px;
+  height: 20px; }
 
 nav {
   font-family: "Oxygen", sans-serif;
@@ -177,27 +186,25 @@ nav {
     padding: 0; }
     #navmenu ul:nth-child(2) li:nth-child(1) {
       width: 41px;
-      border-left: 1px solid #b6b8b7;
       padding: 10px; }
     #navmenu ul:nth-child(2) li:nth-child(2) {
       width: 41px;
-      border-left: 1px solid #b6b8b7;
       padding: 10px; }
     #navmenu ul:nth-child(2) li:nth-child(3) {
       width: 41px;
-      border-left: 1px solid #b6b8b7;
       padding: 10px; }
     #navmenu ul:nth-child(2) li:nth-child(4) {
       width: 41px;
-      border-left: 1px solid #b6b8b7;
       padding: 10px; }
     #navmenu ul:nth-child(2) li:nth-child(5) {
       width: 41px;
-      border-left: 1px solid #b6b8b7;
       padding: 10px; }
 
 #searchbar {
   float: right; }
+  #searchbar img {
+    height: 40px;
+    width: 150px; }
 
 #secondnav {
   margin: 0px;

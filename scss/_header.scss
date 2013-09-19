@@ -4,6 +4,17 @@ color: $text_color;
 height: 180px;
 position:relative;
 
+
+
+#login{
+  img{
+    width:150px;
+    height:40px;
+    position: relative;
+    top: 10px;
+  }
+}
+
     p{
       position:absolute;
       top:60px;
@@ -69,6 +80,13 @@ position:relative;
         padding-left:5px;
     padding-right:5px;
 
+
    }
   }
+}
+
+#socialmedia{
+
+    width:50px;
+    height:20px;
 }
