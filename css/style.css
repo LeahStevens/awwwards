@@ -267,12 +267,10 @@ h4 {
   font-weight: normal;
   color: #409f89; }
 
-
-
 .key {
+  display: block;
   margin-left: 300px;
 }
-
 /*
 #brackets-icon:hover{
   background-posistion: 0 0;
