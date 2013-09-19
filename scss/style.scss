@@ -1,10 +1,41 @@
+@import 'fonts';
 @import 'colors';
 @import 'content';
-@import 'fonts';
 @import 'footer';
 @import 'header';
 @import 'nav';
 
 body {
   background: $BG_color;
+}
+
+#container {
+  width:1182px;
+  margin: 0 auto;
+  margin: 0 52px 0 52px;
+}
+
+.clear {
+  clear:both;
+}
+
+.name {
+  width:80px;
+
+}
+
+.website {
+  width:100px;
+}
+
+.country {
+  width:104px;
+}
+
+.votes {
+  width:110px;
+}
+
+.final {
+  widows: 49px;
 }

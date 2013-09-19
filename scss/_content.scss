@@ -1,0 +1,67 @@
+#content
+{
+font-family:$font;
+overflow:hidden;
+
+  #pic_of_day {
+    float:left;
+    margin-top: 35px;
+    #banner {
+      position:absolute;
+      left: 38px;
+    }
+    img
+    {
+      display:block;
+    }
+  }
+
+  #counter_img
+  {
+    width: 75px;
+    float:left;
+    margin-top: 35px;
+    margin-left:20px;
+
+
+    img
+    {
+      display: block;
+      height: auto;
+      width: 70px;
+      margin: 0 auto;
+          }
+  }
+
+  #table_cont
+  {
+    float:left;
+
+
+    ul
+    {
+        font-size:12px;
+        width:500px;
+
+      li
+      {
+        list-style:none;
+        display:inline-block;
+        height:30px;
+
+
+
+
+        div {
+          display:inline-block;
+
+         img {
+            width:100px;
+            height:auto;
+          }
+        }
+      }
+    }
+  }
+
+}
