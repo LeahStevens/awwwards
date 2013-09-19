@@ -1,3 +1,28 @@
-#main{
+#content
+{
 font-family:$font;
+overflow:hidden;
+
+  #pic_of_day {
+    float:left;
+
+    img
+    {
+      display:block;
+    }
+  }
+
+  #counter_img
+  {
+    width: 75px;
+
+    img
+    {
+      display: block;
+      height: 75px;
+      width: auto;
+      float:left;
+    }
+  }
+
 }

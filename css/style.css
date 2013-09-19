@@ -1,7 +1,18 @@
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
-
-#main {
-  font-family: "Oxygen", sans-serif; }
+#content {
+  font-family: "Oxygen", sans-serif;
+  overflow: hidden; }
+  #content #pic_of_day {
+    float: left; }
+    #content #pic_of_day img {
+      display: block; }
+  #content #counter_img {
+    width: 75px; }
+    #content #counter_img img {
+      display: block;
+      height: 75px;
+      width: auto;
+      float: left; }
 
 body {
   background: #e4e6e5; }
@@ -11,3 +22,5 @@ body {
   margin: 0 auto;
   margin: 0 52px 0 52px; }
 
+.clear {
+  clear: both; }
