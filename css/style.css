@@ -58,6 +58,8 @@
             height: 26px;
             margin-right: 35px;
             padding-bottom: -10px; }
+  #content .key {
+    margin-left: 300px; }
 
 footer {
   border-bottom: 1px solid #b6b8b7;
@@ -108,7 +110,8 @@ header {
     left: 300px;
     margin-bottom: 20px;
     float: left;
-    font-size: 14px; }
+    font-size: 14px;
+    margin-top: 50px; }
   header a {
     color: #409f89;
     text-decoration: none; }
@@ -119,7 +122,7 @@ header {
 
 #logo {
   position: absolute;
-  top: 50px;
+  top: 85px;
   left: 0px;
   display: block;
   width: 288px;
@@ -266,9 +269,7 @@ h4 {
   font-size: 13px;
   font-weight: normal;
   color: #409f89; }
-.key {
-  margin-left: 300px;
-}
+
 /*
 #brackets-icon:hover{
   background-posistion: 0 0;
