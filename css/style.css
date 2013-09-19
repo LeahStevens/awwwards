@@ -3,18 +3,37 @@
   font-family: "Oxygen", sans-serif;
   overflow: hidden; }
   #content #pic_of_day {
-    float: left; }
+    float: left;
+    margin-top: 35px; }
     #content #pic_of_day #banner {
-      position: absolute; }
+      position: absolute;
+      left: 38px; }
     #content #pic_of_day img {
       display: block; }
   #content #counter_img {
     width: 75px;
-    float: left; }
+    float: left;
+    margin-top: 35px;
+    margin-left: 20px; }
     #content #counter_img img {
       display: block;
       height: auto;
-      width: 75px; }
+      width: 70px;
+      margin: 0 auto; }
+  #content #table_cont {
+    float: left; }
+    #content #table_cont ul {
+      font-size: 12px;
+      width: 500px; }
+      #content #table_cont ul li {
+        list-style: none;
+        display: inline-block;
+        height: 30px; }
+        #content #table_cont ul li div {
+          display: inline-block; }
+          #content #table_cont ul li div img {
+            width: 100px;
+            height: auto; }
 
 footer {
   border-bottom: 1px solid #b6b8b7;
@@ -38,3 +57,18 @@ body {
 
 .clear {
   clear: both; }
+
+.name {
+  width: 80px; }
+
+.website {
+  width: 100px; }
+
+.country {
+  width: 104px; }
+
+.votes {
+  width: 110px; }
+
+.final {
+  widows: 49px; }
