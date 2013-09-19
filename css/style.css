@@ -15,7 +15,7 @@
     #content #pic_of_day #banner {
       position: absolute;
       left: 38px;
-      top: 100px; }
+      margin-top: 100px; }
     #content #pic_of_day img {
       display: block; }
   #content #counter_img {
@@ -92,10 +92,10 @@ header {
   font-family: "Oxygen", sans-serif;
   color: #444444;
   height: 180px;
-  posistion: relative; }
-  header h5 {
-    posistion: absolute;
-    top: 76;
+  position: relative; }
+  header p {
+    position: absolute;
+    top: 55px;
     left: 300px;
     margin-bottom: 20px;
     float: left; }
@@ -107,64 +107,114 @@ header {
     header ul li {
       display: inline; }
 
-#searchbar {
-  float: right; }
-
 #logo {
-  posistion: absolute;
+  position: absolute;
   top: 50px;
-  left: 0;
+  left: 0px;
   display: block;
   width: 288px;
   height: 56px; }
 
 #navheader {
   float: right; }
-  #navheader li {
+  #navheader .navli {
     border-right: 1px solid #b6b8b7;
     padding-left: 5px;
     padding-right: 5px; }
+    #navheader .navli li:nth-child(6) {
+      padding-left: 5px;
+      padding-right: 5px; }
+    #navheader .navli li:nth-child(7) {
+      padding-left: 5px;
+      padding-right: 5px; }
 
 nav {
   font-family: "Oxygen", sans-serif;
   color: #444444; }
   nav a {
-    color: #409f89;
+    color: #444444;
     text-decoration: none; }
   nav ul {
-    list-style-type: none; }
+    list-style-type: none;
+    padding-left: 0px; }
     nav ul li {
       display: inline; }
 
 #navmenu {
-  posistion: relative;
+  position: relative;
   width: 100%;
   height: 40px;
   margin-bottom: 40px;
   line-height: 41px;
-  border-top: 1px solid #fff;
   border-bottom: 1px solid #b6b8b7;
-  z-index: 1;
+  border-top: 1px solid #b6b8b7;
+  box-shadow: 0px 1px 1px #fff;
   display: block; }
   #navmenu ul:nth-child(1) {
     float: left;
     margin-top: -1px; }
     #navmenu ul:nth-child(1) li:nth-child(1) {
       width: 109px;
-      margin-right: 15px; }
+      border-right: 1px solid #b6b8b7;
+      padding: 10px; }
     #navmenu ul:nth-child(1) li:nth-child(2) {
-      width: 129px; }
+      width: 129px;
+      border-right: 1px solid #b6b8b7;
+      padding: 10px; }
     #navmenu ul:nth-child(1) li:nth-child(3) {
-      width: 145px; }
+      width: 145px;
+      border-right: 1px solid #b6b8b7;
+      padding: 10px; }
     #navmenu ul:nth-child(1) li:nth-child(4) {
-      width: 94px; }
+      width: 94px;
+      border-right: 1px solid #b6b8b7;
+      padding: 10px; }
   #navmenu ul:nth-child(2) {
     float: right;
-    min-width: 286px;
     margin: 0;
     padding: 0; }
-    #navmenu ul:nth-child(2) li {
-      width: 41px; }
+    #navmenu ul:nth-child(2) li:nth-child(1) {
+      width: 41px;
+      border-left: 1px solid #b6b8b7;
+      padding: 10px; }
+    #navmenu ul:nth-child(2) li:nth-child(2) {
+      width: 41px;
+      border-left: 1px solid #b6b8b7;
+      padding: 10px; }
+    #navmenu ul:nth-child(2) li:nth-child(3) {
+      width: 41px;
+      border-left: 1px solid #b6b8b7;
+      padding: 10px; }
+    #navmenu ul:nth-child(2) li:nth-child(4) {
+      width: 41px;
+      border-left: 1px solid #b6b8b7;
+      padding: 10px; }
+    #navmenu ul:nth-child(2) li:nth-child(5) {
+      width: 41px;
+      border-left: 1px solid #b6b8b7;
+      padding: 10px; }
+
+#searchbar {
+  float: right; }
+
+#secondnav {
+  margin: 0px;
+  padding: 0px; }
+  #secondnav li:nth-child(1) {
+    padding: 15px; }
+  #secondnav li:nth-child(2) {
+    padding: 15px; }
+  #secondnav li:nth-child(3) {
+    padding: 15px; }
+  #secondnav li:nth-child(4) {
+    padding: 15px; }
+  #secondnav li:nth-child(5) {
+    padding: 15px; }
+  #secondnav li:nth-child(6) {
+    padding: 15px; }
+
+#bluelink {
+  color: #409f89; }
 
 body {
   background: #e4e6e5; }
@@ -203,3 +253,17 @@ h4 {
   font-size: 13px;
   font-weight: normal;
   color: #409f89; }
+
+/*
+#brackets-icon:hover{
+  background-posistion: 0 0;
+}
+#brackets-icon{
+  display:inline-block;
+  min-width:40px;
+  min-height:40px;
+  background: url('../images/brackets-icon.png') bottom;
+  background-repeat: no-repeat;
+  text-indent: -99999px;
+}
+*/

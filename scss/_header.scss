@@ -2,11 +2,11 @@ header {
 font-family:$font;
 color: $text_color;
 height: 180px;
-posistion:relative;
+position:relative;
 
-    h5{
-      posistion:absolute;
-      top:76;
+    p{
+      position:absolute;
+      top:55px;
       left: 300px;
       margin-bottom: 20px;
       float:left;
@@ -38,13 +38,14 @@ posistion:relative;
 
 
 
-#searchbar{
-  float:right;
-}
+
+
+
+
 #logo{
-  posistion:absolute;
+  position:absolute;
   top: 50px;
-  left:0;
+  left:0px;
   display: block;
   width:288px;
   height:56px;
@@ -53,9 +54,20 @@ posistion:relative;
 #navheader{
   float:right;
 
-  li{
+  .navli{
     border-right: 1px solid #b6b8b7;
     padding-left:5px;
     padding-right:5px;
+
+   li:nth-child(6){
+        padding-left:5px;
+    padding-right:5px;
+
+   }
+   li:nth-child(7){
+        padding-left:5px;
+    padding-right:5px;
+
+   }
   }
 }
