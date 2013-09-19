@@ -5,11 +5,12 @@ height: 180px;
 posistion:relative;
 
     h5{
-      /*posistion:absolute;
+      posistion:absolute;
       top:76;
-      left: 300px;*/
+      left: 300px;
       margin-bottom: 20px;
       float:left;
+
     }
 
     a{
@@ -41,11 +42,20 @@ posistion:relative;
   float:right;
 }
 #logo{
- /* posistion:absolute;
+  posistion:absolute;
   top: 50px;
-  left:0;*/
+  left:0;
   display: block;
   width:288px;
   height:56px;
 
+}
+#navheader{
+  float:right;
+
+  li{
+    border-right: 1px solid #b6b8b7;
+    padding-left:5px;
+    padding-right:5px;
+  }
 }
