@@ -1,18 +1,85 @@
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
+
 #main {
   font-family: "Oxygen", sans-serif; }
 
+#content {
+  font-family: "Oxygen", sans-serif;
+  overflow: hidden; }
+  #content #pic_of_day {
+    float: left;
+    margin-top: 35px; }
+    #content #pic_of_day p {
+      font-size: 12px;
+      color: #409f89; }
+      #content #pic_of_day p a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #444444; }
+    #content #pic_of_day #banner {
+      position: absolute;
+      left: 38px;
+      top: 100px; }
+    #content #pic_of_day img {
+      display: block; }
+  #content #counter_img {
+    width: 72px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 30px; }
+    #content #counter_img img {
+      display: block;
+      height: auto;
+      width: 75px;
+      margin: 3px; }
+  #content #table_cont {
+    float: left;
+    color: #534444; }
+    #content #table_cont ul {
+      font-size: 13px;
+      width: 575px; }
+      #content #table_cont ul li {
+        list-style: none;
+        display: inline-block;
+        height: 30px;
+        padding: 0px;
+        margin: 0px;
+        border-bottom: 1px solid #d5d7d6;
+        padding-bottom: 5px; }
+        #content #table_cont ul li:first-of-type {
+          border-bottom: none; }
+        #content #table_cont ul li:last-of-type {
+          border-bottom: none; }
+        #content #table_cont ul li div {
+          display: inline-block;
+          margin-bottom: 0px; }
+          #content #table_cont ul li div a {
+            color: #409f89;
+            text-decoration: none;
+            font-style: italic; }
+          #content #table_cont ul li div img {
+            width: auto;
+            height: 26px;
+            margin-right: 35px;
+            padding-bottom: -10px; }
+
+
 footer {
   border-bottom: 1px solid #b6b8b7;
-  box-shadow: 0px 2px 1px #fff; }
+  box-shadow: 0px 1px 1px #fff;
+  margin-top: 50px; }
   footer ul {
     list-style: none;
-    padding: 0px; }
+    padding: 0px;
+    margin-bottom: 6px;
+    position: relative;
+    left: -15px; }
     footer ul li {
       display: inline-block;
-      margin-left: 13px;
+      margin-left: 15px;
       width: 218px;
       height: 136px; }
+
 
 header {
   font-family: "Oxygen", sans-serif;
@@ -86,6 +153,18 @@ nav {
     #navmenu ul:nth-child(2) li {
       width: 41px; }
 
+  footer .footer {
+    margin-top: 0px; }
+    footer .footer li {
+      height: auto;
+      margin-top: 0px; }
+      footer .footer li h3 {
+        margin-top: 0px; }
+      footer .footer li h4 {
+        margin-top: 0px;
+        margin-bottom: 22px; }
+
+
 body {
   background: #e4e6e5; }
 
@@ -93,3 +172,38 @@ body {
   width: 1182px;
   margin: 0 auto;
   margin: 0 52px 0 52px; }
+
+
+
+.clear {
+  clear: both; }
+
+.name {
+  width: 145px; }
+
+.website {
+  width: 155px; }
+
+.country {
+  width: 75px; }
+
+.votes {
+  width: 130px; }
+
+.final {
+  widows: 49px; }
+
+
+h3 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #444444; }
+
+h4 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 13px;
+  font-weight: normal;
+  color: #409f89; }
+
+

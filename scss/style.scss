@@ -14,3 +14,42 @@ body {
   margin: 0 auto;
   margin: 0 52px 0 52px;
 }
+
+.clear {
+  clear:both;
+}
+
+.name {
+  width:145px;
+
+}
+
+.website {
+  width:155px;
+}
+
+.country {
+  width:75px;
+}
+
+.votes {
+  width:130px;
+}
+
+.final {
+  widows: 49px;
+}
+
+h3 {
+  font-family: $font;
+  font-size: 13px;
+  font-weight: bold;
+  color: $text_color;
+}
+
+h4 {
+  font-family: $font;
+  font-size: 13px;
+  font-weight: normal;
+  color: $link_color;
+}
