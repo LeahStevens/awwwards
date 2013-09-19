@@ -1,4 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
+#main {
+  font-family: "Oxygen", sans-serif; }
 
 footer {
   border-bottom: 1px solid #b6b8b7;
@@ -12,8 +14,77 @@ footer {
       width: 218px;
       height: 136px; }
 
-#main {
-  font-family: "Oxygen", sans-serif; }
+header {
+  font-family: "Oxygen", sans-serif;
+  color: #444444;
+  height: 180px;
+  posistion: relative; }
+  header h5 {
+    /*posistion:absolute;
+    top:76;
+    left: 300px;*/
+    margin-bottom: 20px;
+    float: left; }
+  header a {
+    color: #409f89;
+    text-decoration: none; }
+  header ul {
+    padding-left: 0; }
+    header ul li {
+      display: inline; }
+
+#searchbar {
+  float: right; }
+
+#logo {
+  /* posistion:absolute;
+   top: 50px;
+   left:0;*/
+  display: block;
+  width: 288px;
+  height: 56px; }
+
+nav {
+  font-family: "Oxygen", sans-serif;
+  color: #444444; }
+  nav a {
+    color: #409f89;
+    text-decoration: none; }
+  nav ul {
+    list-style-type: none; }
+    nav ul li {
+      display: inline; }
+
+#navmenu {
+  posistion: relative;
+  width: 100%;
+  height: 40px;
+  margin-bottom: 40px;
+  line-height: 41px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #b6b8b7;
+  z-index: 1;
+  display: block; }
+  #navmenu ul:nth-child(1) {
+    float: left;
+    margin-top: -1px;
+    padding-left: 0; }
+    #navmenu ul:nth-child(1) li:nth-child(1) {
+      width: 109px;
+      margin-right: 11px; }
+    #navmenu ul:nth-child(1) li:nth-child(2) {
+      width: 129px; }
+    #navmenu ul:nth-child(1) li:nth-child(3) {
+      width: 145px; }
+    #navmenu ul:nth-child(1) li:nth-child(4) {
+      width: 94px; }
+  #navmenu ul:nth-child(2) {
+    float: right;
+    min-width: 286px;
+    margin: 0;
+    padding: 0; }
+    #navmenu ul:nth-child(2) li {
+      width: 41px; }
 
 body {
   background: #e4e6e5; }
@@ -22,4 +93,3 @@ body {
   width: 1182px;
   margin: 0 auto;
   margin: 0 52px 0 52px; }
-

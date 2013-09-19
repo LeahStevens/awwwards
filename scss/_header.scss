@@ -1,0 +1,51 @@
+header {
+font-family:$font;
+color: $text_color;
+height: 180px;
+posistion:relative;
+
+    h5{
+      /*posistion:absolute;
+      top:76;
+      left: 300px;*/
+      margin-bottom: 20px;
+      float:left;
+    }
+
+    a{
+      color: $link_color;
+      text-decoration:none;
+    }
+
+    ul{
+        padding-left:0;
+
+
+      li{
+
+          display: inline;
+
+
+
+
+
+          }
+      }
+    }
+
+
+
+
+
+#searchbar{
+  float:right;
+}
+#logo{
+ /* posistion:absolute;
+  top: 50px;
+  left:0;*/
+  display: block;
+  width:288px;
+  height:56px;
+
+}
